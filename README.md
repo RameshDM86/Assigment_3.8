@@ -34,7 +34,7 @@ Moving to a microservices architecture comes with several challenges, including 
      - **Logs and Monitoring:** Centralize logs and monitoring data for all microservices. Use log aggregation and analytics tools to simplify the detection of operational issues.
      - **Documentation:** Maintain up-to-date documentation for your microservices, including deployment and operational procedures, to make it easier for your operations teams to manage them effectively.
     
-  5.  ** When transitioning to a microservices architecture, network management becomes more complex due to the increased number of services and the dynamic nature of their interactions. Here's a breakdown of how to address network management challenges in a microservices environment: ** 
+  5.  **When transitioning to a microservices architecture, Network Management becomes more complex due to the increased number of services and the dynamic nature of their interactions :** 
 
  **Service Discovery:**
 
