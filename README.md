@@ -102,13 +102,6 @@ Moving to a microservices architecture comes with several challenges, including 
    - *Solution*:
      - Implement API versioning strategies to allow new and old clients to coexist. This could involve using URL versioning, custom headers, or semantic versioning of APIs.
 
- **Documentation:**
-
-    - Challenge: Maintaining up-to-date network documentation for microservices can be overlooked but is crucial for operational efficiency.
-
-    - Solution: 
-      - Document network configurations, service dependencies, and communication protocols.
-      - Keep API documentation current to help developers understand how to interact with your services.
 
 Effective network management in a microservices architecture requires a combination of infrastructure, tools, and best practices. Regularly reviewing and updating your network management strategies is essential as your microservices ecosystem evolves. Collaborate closely with your operations, security, and development teams to ensure a smooth transition and ongoing management of the network.
 
