@@ -106,7 +106,7 @@ Moving to a microservices architecture comes with several challenges, including 
 
     - *Challenge*: Maintaining up-to-date network documentation for microservices can be overlooked but is crucial for operational efficiency.
 
-    - *Solution*:
+    - *Solution*: 
       - Document network configurations, service dependencies, and communication protocols.
       - Keep API documentation current to help developers understand how to interact with your services.
 
