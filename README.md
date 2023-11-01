@@ -34,7 +34,7 @@ Moving to a microservices architecture comes with several challenges, including 
      - **Logs and Monitoring:** Centralize logs and monitoring data for all microservices. Use log aggregation and analytics tools to simplify the detection of operational issues.
      - **Documentation:** Maintain up-to-date documentation for your microservices, including deployment and operational procedures, to make it easier for your operations teams to manage them effectively.
     
-  5.  **When transitioning to a microservices architecture, Network Management becomes more complex due to the increased number of services and the dynamic nature of their interactions :** 
+  5. **When transitioning to a microservices architecture, Network Management becomes more complex due to the increased number of services and the dynamic nature of their interactions :** 
 
  **Service Discovery:**
 
@@ -66,6 +66,7 @@ Moving to a microservices architecture comes with several challenges, including 
 
    - *Solution*:
      - Consider implementing a service mesh like Istio, Linkerd, or Consul Connect. Service meshes provide features like traffic management, security, and observability, making network management more streamlined.
+     - 
 **API Gateway:**
 
    - *Challenge*: Handling external and internal traffic to microservices without exposing their internal endpoints can be complex.
@@ -73,6 +74,7 @@ Moving to a microservices architecture comes with several challenges, including 
    - *Solution*:
      - Deploy an API gateway that acts as a reverse proxy for your microservices, providing a single entry point for external clients.
      - The API gateway can handle authentication, rate limiting, request routing, and request/response transformation.
+       
 **Monitoring and Logging:**
 
    - *Challenge*: Monitoring the performance and behavior of microservices in a distributed environment can be difficult.
@@ -80,6 +82,7 @@ Moving to a microservices architecture comes with several challenges, including 
    - *Solution*:
      - Implement monitoring and logging solutions such as Prometheus, Grafana, and distributed tracing (e.g., Jaeger or Zipkin) to gain visibility into the behavior of your services.
      - Use centralized log aggregation tools to simplify log management.
+       
  **Traffic Encryption:**
 
    - *Challenge*: Securing communication between microservices over the network is crucial but can be complex to configure and manage.
