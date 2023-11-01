@@ -102,7 +102,7 @@ Moving to a microservices architecture comes with several challenges, including 
    - *Solution*:
      - Implement API versioning strategies to allow new and old clients to coexist. This could involve using URL versioning, custom headers, or semantic versioning of APIs.
 
-**Documentation:**
+ **Documentation:**
 
     - *Challenge*: Maintaining up-to-date network documentation for microservices can be overlooked but is crucial for operational efficiency.
 
